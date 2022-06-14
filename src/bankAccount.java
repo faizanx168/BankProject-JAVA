@@ -1,21 +1,6 @@
 import java.util.Vector;
 import java.time.LocalDate;  
 import java.time.Duration;
-/*
- * Design a class that serves as records of bank accounts. Member variables are 
- * - balance
- * - interest rate
- * - last date interest was payed.
- * - date of opening the account 
- * - primary member client (see Client class)
- * - Vector of secondary holders up to three secondary holders
- * - Methods:
- * - getters and setters fo balance, interest rate, primary holder, ....
- * - payInterest that computes the interest to be payed starting at the last date to today.
- * - deposit(double m) deposits increases balance by m
- * - widhdraw(double m) decreases the balance by m or set to 0 if not enough funds. 
- * - setPrimaryHolder(Client C) changes primary holder to new Client.  
- */
 public class bankAccount  {
 private double balance;
 private double interestRate;
