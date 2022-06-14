@@ -1,23 +1,4 @@
-/*
- * Design a class Date that has the following: 
- * - int month, day and year
- * - getters and setters for each
- * - constructor that accepts day, month and year 
- * - default constructor that sets date to 01/01/2000
- * - constructor that accepts a date as a string in the form "mm/dd/yyyy" of "yyyy-mm-dd"
- * extracts day, month and year from the string. 
- * -toString to display the date in the form mm/dd/yyyy. 
- * 
- */
-/*
- * January has 31 February is 28 or 29 depending is leap or not
- *  leap year is a that is divisible by 4 and not by 100 or they are divisible by 400 
- *  1900 is not a leap year but 1600 is a leap year 
- * 
- * 
- */
-//create an array of constant values that correspond to the number 
-//of days in each month. 
+
 public class Date {
 	static int[] daysInMonth = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	private int day, month, year;
