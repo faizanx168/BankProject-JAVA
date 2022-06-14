@@ -1,18 +1,4 @@
 
-
-/*
- * Design a class client, which is a person. 
- * - first name 
- * - last name 
- * - Date of birth
- * - address 
- * - phone number 
- * - email address
- * - SSN (to be able to retrieve account holders).
- * - getters and setters for all of them * 
- * 
- */
-
 public class Client {
 private String fName;
 private String Lname;
